@@ -1,0 +1,17 @@
+{
+  "name": "hahaha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "superlee",
+  "license": "ISC",
+  "dependencies": {
+    "open": "0.0.5",
+    "opn": "^5.1.0",
+    "request": "^2.83.0",
+    "sleep": "^5.1.1"
+  }
+}
