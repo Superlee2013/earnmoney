@@ -7,8 +7,10 @@
 
 ## 如何使用
 请先按照node环境
+```
 npm install
 npm start
+```
 
 然后，查看你的默认浏览器吧
 
