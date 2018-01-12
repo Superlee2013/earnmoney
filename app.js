@@ -1,6 +1,6 @@
 const request = require("request");
 const cp = require("child_process");
-const sleep = require('sleep');
+const sleep = require("sleep");
 
 let kw = "12.蛤蛤蛤蛤 by superlee";
 
@@ -19,24 +19,23 @@ function queryProblem(url) {
     // if(count>24) return;
     sleep.sleep(1);
     request(url, function(error, response, body) {
-        // if (!error && response.statusCode == 200) {
-            
-            // body =
-            //     '{"code":0,"msg":"成功","data":{"event":{"answerTime":10,"desc":"12.以下哪个"}}}';
+        // body =
+        // '{"code":0,"msg":"成功","data":{"event":{"answerTime":10,"desc":"12.以下哪个"}}}';
+        queryProblem(url);
+        if (!error && response.statusCode == 200) {
             console.log(body);
             let ret = JSON.parse(body);
-            queryProblem(url);
             if (ret && ret.data) {
                 let data = ret.data.event.desc;
                 queryAnswer(data);
             }
-        // }
+        }
     });
 }
 
 function queryAnswer(kw) {
     kw = kw.replace(/\s+/g, "");
-    if(problemMap[kw]) return;
+    if (problemMap[kw]) return;
     problemMap[kw] = true;
     kw = formatProblem(kw);
     console.log(kw);
@@ -46,11 +45,10 @@ function queryAnswer(kw) {
     cp.exec("open " + queryUrl);
 }
 
-function formatProblem(problem){
-
+function formatProblem(problem) {
     let index = problem.indexOf(".");
-    if(index==-1) return problem;
-    problem = problem.substring(index+1,problem.length-1);
+    if (index == -1) return problem;
+    problem = problem.substring(index + 1, problem.length - 1);
     console.log(problem);
     return problem;
 }
