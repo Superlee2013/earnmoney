@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.3.js",
+    "debug": "node app.3.js debug"
   },
   "author": "superlee",
   "license": "ISC",
   "dependencies": {
+    "anyproxy": "^4.0.4",
     "request": "^2.83.0",
     "sleep": "^5.1.1"
   }

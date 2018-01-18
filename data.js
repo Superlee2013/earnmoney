@@ -1,0 +1,14 @@
+
+[
+    {"code":0,"msg":"no data"},
+    {"code":0,"msg":"成功","data":{"event":{"":""}}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":0,"desc":"12.李清照的《如梦令》里的“绿肥红瘦”是描写什么季节的景象？","displayOrder":11,"liveId":106,"options":"[\"晚春\",\"盛夏\",\"初秋\"]","questionId":1221,"showTime":1515762793422,"stats":[8061,6262,6557],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":2,"desc":"11.1980年的今天，湖南岳阳捕获了一条活体白鱀豚，经过人工饲养又存活了多少年？","displayOrder":10,"liveId":106,"options":"[\"12年\",\"15年\",\"22年\"]","questionId":1220,"showTime":1515762704717,"stats":[15243,23408,15460],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":2,"desc":"10.目前亚洲迪士尼乐园中占地面积最大的是？","displayOrder":9,"liveId":106,"options":"[\"东京迪士尼乐园\",\"香港迪士尼乐园\",\"上海迪士尼乐园\"]","questionId":1219,"showTime":1515762646646,"stats":[13483,12353,51322],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"desc":"10.目前亚洲迪士尼乐园中占地面积最大的是？","displayOrder":9,"liveId":106,"options":"[\"东京迪士尼乐园\",\"香港迪士尼乐园\",\"上海迪士尼乐园\"]","questionId":1219,"showTime":1515762612476,"status":0,"type":"showQuestion"},"type":"showQuestion"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":1,"desc":"9.中国别称“榕城”的是？","displayOrder":8,"liveId":106,"options":"[\"四川成都\",\"福建福州\",\"广东广州\"]","questionId":1218,"showTime":1515762592766,"stats":[51663,67275,18106],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":0,"desc":"8.书本《我的前半生》是由哪位清朝皇帝撰写的自传？","displayOrder":7,"liveId":106,"options":"[\"爱新觉罗·溥仪\",\"爱新觉罗·载湉\",\"爱新觉罗·载淳\"]","questionId":1217,"showTime":1515762532678,"stats":[135680,7184,7492],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":1,"desc":"7.周星驰的御用中文配音演员是？","displayOrder":6,"liveId":106,"options":"[\"边江\",\"石班瑜\",\"童自荣\"]","questionId":1216,"showTime":1515762469463,"stats":[15443,144676,29908],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":2,"desc":"6.“玄武门之变”中，杀死李建成的是？","displayOrder":5,"liveId":106,"options":"[\"李渊\",\"李元吉\",\"李世民\"]","questionId":1215,"showTime":1515762393519,"stats":[22554,23723,183775],"status":2,"type":"showAnswer"},"type":"showAnswer"}},
+    {"code":0,"msg":"成功","data":{"event":{"answerTime":10,"correctOption":2,"desc":"6.“玄武门之变”中，杀死李建成的是？","displayOrder":5,"liveId":106,"options":"[\"李渊\",\"李元吉\",\"李世民\"]","questionId":1215,"showTime":1515762393519,"stats":[22554,23723,183775],"status":2,"type":"showAnswer"},"type":"showAnswer"}}
+]

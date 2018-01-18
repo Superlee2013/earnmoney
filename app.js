@@ -45,6 +45,11 @@ function queryAnswer(kw) {
     cp.exec("open " + queryUrl);
 }
 
+function browserCount(problem,choiceList){
+    let counts = [];
+    
+}
+
 function formatProblem(problem) {
     let index = problem.indexOf(".");
     if (index == -1) return problem;
